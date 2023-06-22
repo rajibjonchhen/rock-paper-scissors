@@ -1,0 +1,27 @@
+:root{
+    --DarkCol : rgb(25, 93, 119);
+    --LightCol : rgb(103, 181, 212);
+    --MuchLighterCol :rgb(178, 229, 247);
+
+}
+body{
+    background-color : var(--LightCol);
+    width : 100%;
+    padding :0;
+    margin :0;
+}
+nav{
+    background-color : var(--DarkCol);
+    color : var(--MuchLighterCol);
+    height :100px;
+    display : grid;
+    padding : 0;
+    margin : 0;
+
+}
+main{
+}
+h1{
+    text-align: center;
+   
+}
