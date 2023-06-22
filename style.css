@@ -27,32 +27,39 @@ h1{
    
 }
 
-section{
+.home-section{
     background: linear-gradient(105deg,rgb(48, 57, 116) 0% 33%, rgb(50, 17, 82) 33.1% 66%,rgb(48, 57, 116)66.1% 100%);
     color:var(--MuchLighterCol);
     height:100%;
-    min-height:70vh;
+    min-height:85vh;
     margin:auto;
     padding:10px;
 }
 
-section h1{
+.home-section h1{
     font-size : 100px;
     display: flex;
     justify-content: space-around;
 }
 
-button{
-    height:auto;
-    width:auto;
+.start-btn{
     padding:5px 40px;
     font-size: 50px;
-    margin:auto;
+    margin: 0px auto auto;
     display: block;
-    border:1px solid var(--MuchLighterCol);
-    border-radius: 5px;
-    box-shadow: 0 0  5px 5px white;
+    border-radius: 20px;
     cursor: pointer;
+    background-color: var(--DarkCol);
+    color: var(--MuchLighterCol);
+    
+}
+
+.game-action{
+    border-radius: 50%;
+    width : 100px;
+    height : 100px;
+    font-size: 50px;
+    background-color: var(--DarkCol);
 }
 
 
