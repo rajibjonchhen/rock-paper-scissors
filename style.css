@@ -27,11 +27,14 @@ h1{
    
 }
 
-.home-section{
+.myBackground{
     background: linear-gradient(105deg,rgb(48, 57, 116) 0% 33%, rgb(50, 17, 82) 33.1% 66%,rgb(48, 57, 116)66.1% 100%);
-    color:var(--MuchLighterCol);
     height:100%;
     min-height:85vh;
+}
+
+.home-section{
+    color:var(--MuchLighterCol);
     margin:auto;
     padding:10px;
 }
@@ -45,7 +48,7 @@ h1{
 .start-btn{
     padding:5px 40px;
     font-size: 50px;
-    margin: 0px auto auto;
+    margin: 10px auto auto;
     display: block;
     border-radius: 20px;
     cursor: pointer;
@@ -61,6 +64,13 @@ h1{
     font-size: 50px;
     background-color: var(--DarkCol);
 }
+
+.centerObj{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
