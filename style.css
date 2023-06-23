@@ -76,7 +76,11 @@ h1{
 
 .img-container{
     width: 100%;
+    padding:10px;
 }
 
+.flip{
+    transform: scaleX(-1);
+}
 
 
