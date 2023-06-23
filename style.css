@@ -89,3 +89,11 @@ h1{
     color: var(--MuchLighterCol);
 }
 
+.decision-text{
+    background-color: var(--DarkCol);
+    margin : 10px auto auto;
+    position: fixed;
+    bottom: 0;
+    height:100px;
+    width: 100%;
+}

@@ -19,7 +19,7 @@ const mainDiv = document.getElementById("main")
 
 
 function gameHtml (){
-    mainDiv.innerHTML = `
+    mainDiv.innerHTML =  `
     <section class="myBackground d-flex m-auto justify-content-around">
     <div>
         <h1 class="my-text">Player 👨</h1>
@@ -48,8 +48,8 @@ function gameHtml (){
     </div>
     </section>
     <div>
-        <h1 class="my-text" id="decision"></h1>
-    </div>
+    <h1 id="decision" class='my-text decision-text'></h1>
+</div>
     `
 }
 
