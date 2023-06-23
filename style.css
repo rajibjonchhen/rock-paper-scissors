@@ -4,6 +4,9 @@
     --MuchLighterCol :rgb(178, 229, 247);
 
 }
+.my-text{
+    color:var(--MuchLighterCol)
+}
 body{
     background-color : var(--LightCol);
     width : 100%;
@@ -71,6 +74,9 @@ h1{
     align-items: center;
 }
 
+.img-container{
+    width: 100%;
+}
 
 
 
