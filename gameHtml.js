@@ -1,6 +1,6 @@
-import images from "./images"
+import images from "./images.js"
 export default function gameHtml (){
-    mainDiv.innerHTML =  `
+    return  `
     <section class="myBackground d-flex m-auto justify-content-around">
     <div>
         <h1 class="my-text">Player 👨</h1>
@@ -8,9 +8,9 @@ export default function gameHtml (){
             <img class="rock-paper-scissors-img" src="${images['defaultImg']}" alt="${images['defaultImg']}" />
         </div>
         <div class="mb-4">
-            <button class="game-action" onclick='playGame("rock")'>✊</button>
-            <button class="game-action" onclick='playGame("paper")'>🤚</button>
-            <button class="game-action" onclick='playGame("scissors")'>✌️</button>
+            <button class="game-action" id = 'stone-btn' >✊</button>
+            <button class="game-action" id = 'paper-btn' >🤚</button>
+            <button class="game-action" id = 'scissors-btn' >✌️</button>
         </div>
     </div>
     <div>
@@ -33,4 +33,3 @@ export default function gameHtml (){
 </div>
     `
 }
-
