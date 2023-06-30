@@ -1,7 +1,13 @@
+
 import images from "./images.js"
+
+
+
 export default function gameHtml (){
+    const selectMatch = TotalMatchHtml()
     return  `
     <section class="myBackground d-flex m-auto justify-content-around">
+    
     <div>
         <h1 class="my-text">Player 👨</h1>
         <div class="img-container" id="selected-img">
