@@ -3,8 +3,6 @@ import gameHtml from './gameHtml.js'
 import playerChoice from './playerChoice.js'
 
 
-console.log("hello")
-
 const mainDiv = document.getElementById("main")
  mainDiv.innerHTML = startHtml()
 
@@ -18,9 +16,11 @@ function routeToGamePage (){
     stoneBtn.addEventListener('click',()=>playerChoice("rock"))
 
     const paperBtn =  document.getElementById('paper-btn')
-    paperBtn.addEventListener('click',()=>playerChoice("paper"))
-
+    paperBtn.addEventListener('click',()=>playerChoice("paper"))    
 }
+
+const numbMatches = document.getElementsByTagName('select')[0]
+numbMatches.addEventListener('change', (e)=> console.log(e.target.value))
 
  const battleComp =  document.getElementById('battle-comp')
  const battlefriend =  document.getElementById('battle-friend')
