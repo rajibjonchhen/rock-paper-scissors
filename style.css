@@ -1,111 +1,51 @@
 :root{
-    --DarkCol : rgb(25, 93, 119);
+    --DarkCol : rgb(2, 98, 136);
     --LightCol : rgb(103, 181, 212);
     --MuchLighterCol :rgb(178, 229, 247);
 
 }
-.my-text{
-    color:var(--MuchLighterCol)
-}
+
 .align-center{
     margin:auto;
     text-align: center;
 }
 body{
     background: linear-gradient(105deg,rgb(48, 57, 116) 0% 33%, rgb(50, 17, 82) 33.1% 66%,rgb(48, 57, 116)66.1% 100%);
+    color:var(--MuchLighterCol);
     height: 100vh;
     width : 100%;
     padding :0;
     margin :0;
 }
-nav{
-    background-color : var(--DarkCol);
-    color : var(--MuchLighterCol);
-    height :100px;
-    display : grid;
-    padding : 0;
-    margin : 0;
-
-}
-select{
-    width:70px;
-    text-align: center;
-    padding:5px 40px;
-    font-size: 50px;
-    margin: 10px auto auto;
-    display: block;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: var(--DarkCol);
-    color: var(--MuchLighterCol);
-}
-h1{
-    text-align: center;
-   
-}
-
-.home-section{
-    color:var(--MuchLighterCol);
-    margin:auto;
-    padding:10px;
-}
-
-.home-section h1{
-    font-size : 100px;
+main{
     display: flex;
-    justify-content: space-around;
-}
-
-.start-btn{
-    padding:5px 40px;
-    font-size: 50px;
-    margin: 10px auto auto;
-    display: block;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: var(--DarkCol);
-    color: var(--MuchLighterCol);
-    
-}
-
-.game-action{
-    border-radius: 50%;
-    width : 100px;
-    height : 100px;
-    font-size: 50px;
-    background-color: var(--DarkCol);
-}
-
-.centerObj{
-    display : flex;
+    min-height: 80vh;
     justify-content: center;
     align-items: center;
 }
 
-.img-container{
-    width: 100%;
-    padding:10px;
-    margin:50px auto;
-}
-
-.flip{
-    transform: scaleX(-1);
-}
-
-.rock-paper-scissors-img{
-    width:auto;
-    height:400px;
-}
-#vs-text{
-    font-size: 200px;
-    color: var(--MuchLighterCol);
-}
-
-.decision-text{
+select{
+    width:100%;
+    display: block;
+    text-align: center;
+    padding:5px 40px;
+    font-size: 50px;
+    margin: 10px auto auto;
+    border-radius: 20px;
+    cursor: pointer;
     background-color: var(--DarkCol);
-    margin : 10px auto auto;
-    position: fixed;
-    bottom: 0;
-    height:100px;
-    width: 100%;
+    color: inherit;
 }
+
+h1{
+    text-align: center;
+    color:var(--MuchLighterCol);
+}
+.centerObj{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+
