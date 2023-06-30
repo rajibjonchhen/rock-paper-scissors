@@ -1,0 +1,33 @@
+.home-section{
+    color:var(--MuchLighterCol);
+    margin:auto;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width : 600px;
+}
+
+.home-section h1{
+    font-size : 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.start-btn-container{
+    width:100%;
+    margin:20px auto;
+}
+.start-btn{
+    width:100%;
+    padding:5px 40px;
+    font-size: 30px;
+    margin: 10px auto auto;
+    display: block;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--DarkCol);
+    color : inherit
+    
+}
