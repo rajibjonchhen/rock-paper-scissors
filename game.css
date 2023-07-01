@@ -1,6 +1,8 @@
 section{
-    color:var(--MuchLighterCol);
-    
+    color:var(--MuchLighterCol); 
+}
+section>div{
+    width: 100%;
 }
 .img-container{
     width: 100%;
@@ -40,7 +42,7 @@ section{
     width: 100%;
 }
 
-.decision-text h1{
+.decision-text h2{
     text-align : center;
     margin: auto;
 }

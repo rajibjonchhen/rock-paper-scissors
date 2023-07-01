@@ -33,7 +33,7 @@ export default function gameHtml (){
                 </div>
             </div>
             <div class='decision-text'>
-                <h2 id="decision" >Click a button of choice to start game and see the result will be displayed here</h2>
+                <h2 id="decision">Click a button of choice to start game and see the result will be displayed here</h2>
             </div>
         </div>
     </section>

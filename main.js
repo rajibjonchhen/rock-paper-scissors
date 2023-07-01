@@ -20,7 +20,7 @@ function routeToGamePage (){
 }
 
 const numbMatches = document.getElementsByTagName('select')[0]
-numbMatches.addEventListener('change', (e)=> console.log(e.target.value))
+numbMatches.addEventListener('change', (e)=> localStorage.setItem('bestOf',e.target.value))
 
  const battleComp =  document.getElementById('battle-comp')
  const battlefriend =  document.getElementById('battle-friend')
