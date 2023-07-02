@@ -1,4 +1,5 @@
 
+import MatchCountHtml from "./MatchCountHtml.js"
 import images from "./images.js"
 
 
@@ -6,6 +7,10 @@ import images from "./images.js"
 export default function gameHtml (){
     return  `
     <section>
+        <div class='decision-text'>
+            <p id="decision">Click a button of choice to start game and see the result will be displayed here</p>
+            ${MatchCountHtml()}
+        </div>
         <div class="d-flex m-auto justify-content-around">
             <div>
                 <h1>Player 👨</h1>
@@ -31,9 +36,6 @@ export default function gameHtml (){
                     <button class="game-action" disabled>🤚</button>
                     <button class="game-action" disabled>✌️</button>
                 </div>
-            </div>
-            <div class='decision-text'>
-                <h2 id="decision">Click a button of choice to start game and see the result will be displayed here</h2>
             </div>
         </div>
     </section>
