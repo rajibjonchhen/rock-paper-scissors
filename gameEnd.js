@@ -1,6 +1,27 @@
 
-export default function gameEnd(playCount, bestOf, winner) {
+export default function gameEnd({playCount, player, computer, finalWinner, draw}) {
   return (
-    `<div class="endGame">${playCount}${bestOf}${winner}</div>`
+    `<div class="endGame">
+    <table>
+        <tr>
+            <td>Total game played</td>
+            <td>${playCount}</td>
+        </tr>
+        
+        <tr>
+        <td>Number of game you win</td>
+        <td> ${player}</td>
+        </tr>
+        <tr>
+        <td>Number of game draw </td>
+        <td>${draw}</td>
+        </tr>
+        <tr>
+        <td>Number of game computer win</td>
+        <td>${computer}</td>
+        </tr>
+    </table>
+        <p class="winner"> the result is <span>${finalWinner}</span></p>
+    </div>`
   )
 }
