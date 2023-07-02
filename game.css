@@ -34,12 +34,12 @@ section>div{
 
 .decision-text{
     background-color: var(--DarkCol);
+    width: 100vw;
     margin : auto auto 20px;
     position: sticky;
     left:0;
     top: 0;
     height:100px;
-    width: 100%;
     padding-top: 20px;
 }
 
@@ -47,5 +47,9 @@ section>div{
     font-size: 20px;
     font-weight: bold;
     text-align : center;
-    width: 100vw;
+    width: 100%;
+}
+
+.match-count{
+    border: 1px solid white;
 }
