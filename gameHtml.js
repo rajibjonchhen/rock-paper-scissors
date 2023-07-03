@@ -12,6 +12,7 @@ export default function gameHtml (){
                 <span id='match-count'></span> /
                 <span id='total-match'></span>
             </p>
+            <span id="back"> <<< back </span>
         </div>
         <div class="d-flex m-auto justify-content-around">
             <div>

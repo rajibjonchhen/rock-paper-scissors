@@ -22,6 +22,7 @@ export default function gameEnd({playCount, player, computer, finalWinner, draw}
         </tr>
     </table>
         <p class="winner"> the result is <span>${finalWinner}</span></p>
+        <button id="replay-btn" class="replay-btn">Replay</button>
     </div>`
   )
 }

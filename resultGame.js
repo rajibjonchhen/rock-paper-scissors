@@ -1,4 +1,5 @@
 import gameEnd from "./gameEnd.js"
+import { routeToHome } from "./main.js";
 let player = 0;
 let computer = 0;
 let draw = 0
@@ -55,11 +56,16 @@ export default function resultGame(playerChoice, comChoice){
     decision.innerText = winner
 
     if(playCount == bestOf){
-    localStorage.setItem('playCount',0)
-    localStorage.setItem('bestOf',1)
+    localStorage.setItem('playCount','0')
+    localStorage.setItem('bestOf','1')
     const finalWinner = player > computer? "You win" : computer > player? "Computer win" : "Game draw"
     console.log(playCount, bestOf, winner)
-        const mainDiv = document.getElementById("main")
-        mainDiv.innerHTML = gameEnd({playCount, player, computer,draw, finalWinner})
+
+    
+    const mainDiv = document.getElementById("main")
+    mainDiv.innerHTML = gameEnd({playCount, player, computer,draw, finalWinner})
+        const replay = document.getElementById("replay-btn")
+       replay.addEventListener('click',() => { routeToHome()})
+        
     }
 }

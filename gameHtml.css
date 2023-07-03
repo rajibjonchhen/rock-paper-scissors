@@ -41,6 +41,7 @@ section>div{
     top: 0;
     height:100px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #decision{
@@ -52,4 +53,10 @@ section>div{
 
 .match-count{
     border: 1px solid white;
+    width:100px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
 }
