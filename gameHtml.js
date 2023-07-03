@@ -7,12 +7,12 @@ export default function gameHtml (){
     
     return  `<section>
         <div class='decision-text'>
+        <button id="back-btn"> <<< back </button>
             <p id="decision">Click a button of choice to start game and see the result will be displayed here</p>
             <p class='match-count'>
                 <span id='match-count'></span> /
                 <span id='total-match'></span>
             </p>
-            <span id="back"> <<< back </span>
         </div>
         <div class="d-flex m-auto justify-content-around">
             <div>

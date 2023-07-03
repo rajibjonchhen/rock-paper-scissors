@@ -9,6 +9,9 @@ routeToHome()
 function routeToGamePage (){
     mainDiv.innerHTML = gameHtml()
 
+    const backBtn = document.getElementById('back-btn')
+    backBtn.addEventListener('click',()=>{mainDiv.innerHtml = routeToHome()})
+
     const scissorsBtn =  document.getElementById('scissors-btn')
     scissorsBtn.addEventListener('click',()=>playerChoice("scissors"))
         

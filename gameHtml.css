@@ -39,9 +39,9 @@ section>div{
     position: sticky;
     left:0;
     top: 0;
-    height:100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    min-height:100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #decision{
@@ -49,6 +49,7 @@ section>div{
     font-weight: bold;
     text-align : center;
     width: 100%;
+    position: relative;
 }
 
 .match-count{
@@ -59,4 +60,13 @@ section>div{
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
+}
+
+#back-btn{
+    background-color: transparent;
+    color:inherit;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    border: none;
 }
