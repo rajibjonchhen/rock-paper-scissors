@@ -1,5 +1,5 @@
 import gameEnd from "./gameEnd.js"
-import { routeToHome } from "./main.js";
+import { routeToHome } from "./routeToHome.js";
 let player = 0;
 let computer = 0;
 let draw = 0
@@ -63,9 +63,12 @@ export default function resultGame(playerChoice, comChoice){
 
     
     const mainDiv = document.getElementById("main")
-    mainDiv.innerHTML = gameEnd({playCount, player, computer,draw, finalWinner})
+    mainDiv.innerHTML = gameEnd({playCount, player, computer, draw, finalWinner})
         const replay = document.getElementById("replay-btn")
-       replay.addEventListener('click',() => { routeToHome()})
+        replay.addEventListener('click',() => { routeToHome()})
+        player = 0;
+        computer = 0;
+        draw = 0
         
     }
 }
